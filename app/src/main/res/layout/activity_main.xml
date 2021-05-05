@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.lihai.indexbarrecyclerview.IndexBarRecyclerView
+            android:id="@+id/irv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:indexBar_selectedTextColor="@color/white"
+            app:indexBar_textColor="@android:color/black"
+            app:indexBar_textSize="14sp"
+            app:indexBar_textSpace="4dp">
+
+        </com.lihai.indexbarrecyclerview.IndexBarRecyclerView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="24l32432"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</ScrollView>

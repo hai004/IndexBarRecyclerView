@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_indexBar_textColor">#8c8c8c</color>
+    <dimen name="default_indexBar_textSize">14sp</dimen>
+    <color name="default_indexBar_selectedTextColor">#f33737</color>
+    <color name="default_sideBar_selectedTextBg">@android:color/holo_blue_bright</color>
+    <dimen name="default_indexBar_textSpace">4dp</dimen>
+    <drawable name="dafault_indexBar_background">@android:color/transparent</drawable>
+    <drawable name="default_center_overlay_bg">@android:color/holo_blue_light</drawable>
+    <dimen name="default_center_overlay_width">70dp</dimen>
+    <dimen name="default_center_overlay_height">70dp</dimen>
+    <color name="default_center_overlay_text_color">@android:color/white</color>
+    <dimen name="default_center_overlay_text_size">20sp</dimen>
+    <dimen name="default_indexBar_layout_width">24dp</dimen>
+    <color name="default_index_title_bg">#ddd</color>
+    <color name="default_index_title_text">@android:color/black</color>
+    <dimen name="default_index_title_text_size">16dp</dimen>
+</resources>

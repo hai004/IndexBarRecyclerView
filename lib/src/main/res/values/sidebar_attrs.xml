@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IndexBarRecyclerView">
+        <attr name="indexBar_selectedTextColor" format="color" />
+        <attr name="indexBar_selectedTextBg" format="color" />
+        <attr name="center_overlay_bg" format="reference|color" />
+        <attr name="center_overlay_width" format="dimension" />
+        <attr name="center_overlay_height" format="dimension" />
+        <attr name="center_overlay_text_color" format="color" />
+        <attr name="center_overlay_text_size" format="dimension" />
+        <attr name="indexBar_textColor" format="color" />
+        <attr name="indexBar_textSize" format="dimension" />
+        <attr name="indexBar_textSpace" format="dimension" />
+        <attr name="indexBar_background" format="reference|color" />
+        <attr name="indexBar_layout_width" format="dimension"/>
+        <attr name="index_title_bg_color" format="color"/>
+        <attr name="index_title_text_color" format="color"/>
+        <attr name="index_title_text_size" format="dimension"/>
+    </declare-styleable>
+</resources>
